@@ -1,0 +1,68 @@
+/*
+    COLORS:
+    primary: #76b3c8;
+    input-bttn: rgb(105, 171, 195);
+    input-bttn:hover: rgb(92, 153, 175);
+    icons and text: white;
+*/
+
+.iconify { 
+    color: white;
+    font-size: 2.5rem;
+}
+
+.nav {
+    background: #76b3c8;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 1px 10px rgb(197, 197, 197);
+}
+
+/* MENU  */
+.nav-menu {
+    flex-grow: 1;
+    background: none;
+    border: none;
+}
+
+/* SEARCHER */
+.nav-searcher-form {
+    flex-grow: 8;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+/* Searcher input */
+.nav-searcher-input {
+    background: rgb(105, 171, 195); 
+    border: none;
+    width: 21%;
+    padding: 10px 10px;
+    color: white;
+    position: relative;
+    border-radius: 3px;
+}
+
+.nav-searcher-input:hover {
+    background: #5c99af; 
+}
+
+.nav-searcher-input::placeholder {
+    color:white;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* Searcher bttn */
+.nav-searcher-bttn {
+    background: #69abc3; 
+    padding: 2px 0px;
+    background: none;
+    border: none;
+    position: absolute;
+    left: 29.5%;
+}
