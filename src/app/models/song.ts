@@ -1,5 +1,5 @@
 export interface Song {
-
+    
     wrapperType: string;
     kind: string;
     artistId: number;
