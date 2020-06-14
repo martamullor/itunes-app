@@ -33,7 +33,7 @@ export class ItunesService {
     this.saveSongs();
   }
   
-//Transforms input into the key to link to the url
+// Transforms input into the key to link to the url
   getArtistKey(inputArtist){
     inputArtist = inputArtist.toLowerCase()
     var artist = inputArtist.split(" ");
