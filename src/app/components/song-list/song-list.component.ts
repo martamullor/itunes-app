@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
 import { ItunesService } from './../../services/itunes.service';
-
 import { Song } from './../../models/song';
 
 @Component({
