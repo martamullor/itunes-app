@@ -21,7 +21,6 @@ export class SongListComponent implements OnInit {
     }
 
     getSongs(){
-      debugger;
       this.songs = this._itunesService.songs;
     return this.songs;
     }

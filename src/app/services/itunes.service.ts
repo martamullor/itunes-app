@@ -19,12 +19,10 @@ export class ItunesService {
     return this._http.get(this.url+this.artistKey);
   }
 
-//collects the JSON result from itunes through an Obserbable
   saveSongs(){
     this.getSongs().subscribe(
-      result =>{
+      result => {
         this.songs = result['results'];
-        console.log(this.songs = result['results']);
     }, error => {
       console.log(<any>error);
     }) ;
@@ -41,7 +39,7 @@ export class ItunesService {
     var artist = inputArtist.split(" ");
     var str:string = "";
     if(artist.length > 1){
-      for (var i=0; i<artist.length; i++){
+      for (var i=0; i < artist.length; i++){
         str += artist[i]+ "+";
         }
         str = str.substring(0, str.length - 1);
