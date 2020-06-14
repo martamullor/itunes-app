@@ -1,0 +1,55 @@
+
+.card-container {
+    width: 30%;
+    height: 40%;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px rgb(197, 197, 197);
+    margin: 20px;
+    position: relative;
+}
+
+.img-card-song {
+    object-fit: cover;
+    margin: auto;
+    height: 160px;
+    width: 100%;
+}
+
+/* Card Section */
+
+.card-content {
+    margin: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.song-title {
+    color:rgb(44, 44, 44);
+    font-size: 1.9rem;
+    margin: 8px;
+}
+
+.song-album {
+    color: grey;
+    margin: 8px;
+}
+
+/* Fav */
+
+.card-footer {
+    padding-bottom: 13px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.iconify {
+    color: #76b3c8;
+    font-size: 1.3rem;
+    width: 20px;
+    height: 20px;
+}
+
+.iconify:hover{
+    color: #5c99af;
+}
