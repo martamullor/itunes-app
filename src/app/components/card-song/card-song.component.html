@@ -6,7 +6,7 @@
     <p class="song-title">{{song.trackName}}</p>
     <p class="song-album">{{song.collectionName}}</p>
     <div class="card-footer"> 
-      <span class="iconify" data-icon="mdi:heart-outline" data-inline="false"></span>
+      <i (click)="isFavourite(song)" [ngClass]="favourite ? 'fa': 'far'" class="fa-heart" id="hearth-icon"></i>
     </div>
   </div>
 </div>

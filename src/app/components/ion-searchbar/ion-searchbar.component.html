@@ -1,10 +1,10 @@
 <nav class="nav">
-   <button class="nav-menu"><span class="iconify" data-icon="mdi:menu" data-inline="false"></span></button>
+   <button class="nav-menu"><i class="fas fa-bars nav-icon"></i></button>
       <form class="nav-searcher-form">
         <input class="nav-searcher-input" type="text" placeholder="Search" name="search" [(ngModel)]="inputArtist" (keyup.enter)="searchArtist()">
         <button class="nav-searcher-bttn" type="submit" (click)="searchArtist()">
-            <span class="iconify" data-icon="mdi:search-web" data-inline="false"></span>
+          <i class="fas fa-search nav-icon"></i>
         </button>
       </form>
-      <span class="nav-fav iconify" data-icon="mdi:cards-heart" data-inline="false"></span>
+        <i class="fas fa-heart nav-icon"><div class="fav-counter">{{getFavourites()}}</div></i>
   </nav>
