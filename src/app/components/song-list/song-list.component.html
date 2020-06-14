@@ -1,0 +1,5 @@
+  <div class="container" *ngIf="getSongs()">
+    <div *ngFor="let song of songs">
+      <card-song class="card-song" [song]="song"></card-song>
+    </div>
+  </div> 

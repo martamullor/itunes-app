@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Song } from './../../models/song';
 
 @Component({
   selector: 'card-song',
@@ -6,12 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-song.component.css']
 })
 export class CardSongComponent implements OnInit {
-  title: string ="Title";
-  album: string= "Album";
-  img: string ="https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+  @Input()
+  song: Song;
+  img: string;
   constructor() { }
 
   ngOnInit() {
   }
-
 }
