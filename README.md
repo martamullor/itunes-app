@@ -5,9 +5,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Technical decisions on the project
 
 1. We created the project in Angular and built in github environment with two branches. 
-    . Master: Which refers to the production environment.
+    * Master: Which refers to the production environment.
     * Develop: Which refers to the development environment.
-        * If two developers had participated in the project we would create a branch for each task to subsequently perform the           pull request
+        ** If two developers had participated in the project we would create a branch for each task to subsequently perform the pull request
 
 ## Code scaffolding
 
