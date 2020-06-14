@@ -2,9 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
-## Development server
+## Technical decisions on the project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. We created the project in Angular and built in github environment with two branches. 
+    * Master: Which refers to the production environment.
+    * Develop: Which refers to the development environment.
+        * If two developers had participated in the project we would create a branch for each task to subsequently perform the           pull request
 
 ## Code scaffolding
 
