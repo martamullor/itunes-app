@@ -10,13 +10,13 @@ import { Observable } from 'rxjs';
 
 export class ItunesService {
 
-  private url: string = "https://itunes.apple.com/search?entity=song&term="
-  private artistKey:string = "";
+  private url: string = " https://itunes.apple.com/search?term="
+  private artistName: string = "";
   public songs: Song[];
   constructor( private _http: HttpClient) { }
 
   getSongs() : Observable<any>{
-    return this._http.get(this.url+this.artistKey);
+    return this._http.get(this.url+this.artistName);
   }
 
   saveSongs(){
@@ -47,7 +47,7 @@ export class ItunesService {
     } else {
       str = inputArtist;
     } 
-    this.artistKey = str;
+    this.artistName = str;
   }
 
 }
