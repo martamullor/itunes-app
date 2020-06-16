@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Song } from './../../models/song';
-import { FavouriteService} from './../../services/favourite.service'
+import { FavouriteService } from './../../services/favourite.service'
 
 
 @Component({

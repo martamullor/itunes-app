@@ -16,7 +16,7 @@ import { ItunesService } from './services/itunes.service';
     AppComponent,
     IonSearchbarComponent,
     SongListComponent,
-    CardSongComponent
+    CardSongComponent,
   ],
   imports: [
     BrowserModule,

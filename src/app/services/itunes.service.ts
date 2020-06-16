@@ -21,8 +21,9 @@ export class ItunesService {
 
   saveSongs(){
     this.getSongs().subscribe(
-      result => {
-        this.songs = result['results'];
+      allSongs => {
+        // Do it the refactor
+        this.songs = allSongs.results;
     }, error => {
       console.log(<any>error);
     }) ;
